@@ -1,0 +1,50 @@
+Especificação do Projeto - E-commerce com PHP, Bootstrap e JavaScript
+
+1. Introdução: O projeto consiste na criação de um sistema de comércio eletrônico (e-commerce) que permitirá a gestão de produtos por administradores e a compra de produtos por clientes. O sistema utilizará PHP como linguagem de programação no lado do servidor, Bootstrap para o desenvolvimento do front-end e JavaScript para aprimorar a experiência do usuário, incluindo máscaras em formulários. Além disso, serão incluídas informações específicas do cliente, como nome, endereço, email e número de telefone.
+
+2. Requisitos Funcionais:
+
+2.1. Autenticação de Usuários:
+
+    Os usuários serão autenticados como administradores ou clientes.
+    A autenticação será necessária para acessar funcionalidades específicas.
+
+2.2. Painel do Administrador:
+
+    Os administradores terão acesso a um painel de administração.
+    Funcionalidades do painel do administrador incluirão:
+        Cadastro de produtos, incluindo informações como nome, descrição, preço e imagem.
+        Edição de produtos existentes.
+        Remoção de produtos.
+
+2.3. Interface Responsiva:
+
+    Utilização do framework Bootstrap para garantir a responsividade da interface em dispositivos móveis e desktop.
+
+2.4. Carrinho de Compras:
+
+    Os clientes poderão adicionar produtos a um carrinho de compras.
+    Os produtos no carrinho de compras serão armazenados na sessão do cliente.
+    Os clientes poderão visualizar e editar o conteúdo do carrinho.
+
+2.5. Checkout Simplificado:
+
+    O processo de checkout será simplificado para os clientes.
+    Os clientes fornecerão informações pessoais, incluindo nome, endereço, email, número de telefone, informações de envio e pagamento.
+    Confirmação do pedido antes da conclusão.
+    Será necessária a soma total dos produtos no carrinho.
+
+2.6. Máscaras em JavaScript:
+
+    Implementação de máscaras em campos de formulário para melhorar a usabilidade, como máscaras de CPF, telefone e CEP.
+
+3. Regras e Segurança:
+
+    Não permitir que clientes se cadastrem com o mesmo endereço de email.
+    Restringir o acesso a páginas de usuário a apenas usuários autenticados.
+
+4. Tecnologias Utilizadas:
+
+    PHP para o desenvolvimento do back-end.
+    Bootstrap para o desenvolvimento do front-end, garantindo um design responsivo.
+    JavaScript para funcionalidades interativas, incluindo máscaras em formulários.
